@@ -21,7 +21,7 @@ def user_number_2():
     number2 = input("Please enter second number : ")
     return number2
 
-
+# This is the main function that performs the calculation
 def evaluate(number1,operator,number2):
     result = 0
     if operator == 1:
@@ -39,6 +39,7 @@ def evaluate(number1,operator,number2):
     return result
 
 
+# This is the function that runs the main calculator app using the functions we created above
 def main():
     number1 = int(user_number_1())
     operator = int(user_operator())
